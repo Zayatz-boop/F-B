@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&B</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="./icons/logo.svg" alt="" class="logo">
+            </div>
+            <nav class="header-nav">
+                <ul class="nav-item">Каталог</ul>
+                <ul class="nav-item">Галерея</ul>
+                <ul class="nav-item">О лаборатории</ul>
+                <ul class="nav-item">Контакты</ul>
+            </nav>
+            <div class="actions">
+                <div class="search">
+                    <img src="./icons/search.svg" alt="">
+                </div>
+                <div class="log-in">
+                    <img src="./icons/log-in.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="header-desc">
+        <div class="container">
+            <div class="header-text">
+                <div class="header-title">Крупнейшая коллекция природных артефактов</div>
+                <div class="header-p">Являясь всего лишь частью общей картины, интерактивные прототипы, которые
+                    представляют
+                    собой яркий пример европейского
+                    типа политической и социальной культуры.</div>
+                <a href="#!" class="explore">Исследовать <img src="./icons/Arrow.svg" alt="" class="arrow"></a>
+            </div>
+        </div>
+    </div>
+
+    <section class="main">
+        <div class="container">
+            <div class="main-items">
+                <div class="main-item">
+                    <div class="item-image">
+                        <div class="number">2.4</div>
+                        <img class="item-img" src="./images/item-1.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="item-title">Fig. 1 (plant)</div>
+                        <div class="item-desc">Имеется спорная точка зрения, гласящая примерно следующее: активно
+                            развивающиеся
+                            страны третьего мира своевременно
+                            верифицированы.</div>
+                    </div>
+                    <button class="item-button">Подробнее</button>
+                </div>
+                <div class="main-item">
+                    <div class="item-image">
+                        <div class="number">3.1</div>
+                        <img class="item-img" src="./images/item-2.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="item-title">Fig. 2 (flower)</div>
+                        <div class="item-desc">Прежде всего, синтетическое тестирование влечет за собой процесс
+                            внедрения
+                            и модернизации условий.</div>
+                    </div>
+                    <button class="item-button">Подробнее</button>
+                </div>
+                <div class="main-item">
+                    <div class="item-image">
+                        <div class="number">1.2</div>
+                        <img class="item-img" src="./images/item-3.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="item-title">Fig. 3 (leaf)</div>
+                        <div class="item-desc">Лишь непосредственные участники прогресса неоднозначны и будут в равной
+                            степени предоставлены сами себе для работы.</div>
+                        <button class="item-button">Подробнее</button>
+                    </div>
+                </div>
+                <div class="main-item">
+                    <div class="item-image">
+                        <div class="number">1.4</div>
+                        <img class="item-img" src="./images/item-4.png" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="item-title">Fig. 4 (wood)</div>
+                        <div class="item-desc">Базовый вектор развития не даёт нам иного выбора, кроме определения
+                            новых
+                            предложений.</div>
+                    </div>
+                    <button class="item-button">Подробнее</button>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href="" class="prev">
+                    <img src="./icons/Arrow-left.svg" alt="" class="arrow">
+                </a>
+                <p>1 из 3</p>
+                <a href="" class="next">
+                    <img src="./icons/Arrow-right.svg" alt="" class="arrow">
+                </a>
+            </div>
+
+            <h1>Новые артефакты</h1>
+            <aricle class="artifacts">
+                <img src="./images/image-large.jpg" alt="" class="main-img">
+                <aside>
+                    <h2>Kurische Nehrung 24</h2>
+                    <p class="aside-text">
+                        Вот вам яркий пример современных тенденций - начало повседневной работы по формированию позиции
+                        выявляет
+                        срочную
+                        потребность методов управления процессами.</p>
+                    <p class="aside-text">Есть над чем задуматься: представители современных социальных резервов
+                        своевременно
+                        верифицированы.</p>
+                    <button class="more">Читать далее <img src="./icons/Arrow-black.svg" alt=""></button>
+                </aside>
+            </aricle>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <h1>Помочь проекту</h1>
+            <div class="header-p">
+                Равным образом, экономическая повестка сегодняшнего дня не даёт нам иного выбора, кроме определения
+                прогресса
+                профессионального сообщества. Как принято считать, элементы политического процесса рассмотрены
+                исключительно
+                в разрезе
+                маркетинговых и финансовых предпосылок.</div>
+            <form class="contact-form" action="/submit-form" method="post">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Имя">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                </div>
+                <button type="submit" class="submit-btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
